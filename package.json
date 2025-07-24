@@ -9,15 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/genai": "^1.10.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.0",
+    "genai": "^0.0.18",
+    "langchain": "^0.3.30",
+    "next": "15.4.2",
+    "openai": "^5.10.2",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.2"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
