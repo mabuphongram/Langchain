@@ -8,7 +8,7 @@ export async function POST() {
     globalVectorStore.clear();
     
     // Clear conversation history if QA chain exists
-    const apiKey = process.env.GOOGLE_AI_API_KEY;
+    const apiKey = process.env.GOOGLE_GENAI_API_KEY;
     if (apiKey) {
       const qaChain = getQAChain(apiKey);
       qaChain.clearHistory();

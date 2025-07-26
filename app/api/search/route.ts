@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Check for API key
-    const apiKey = process.env.GOOGLE_AI_API_KEY;
+    const apiKey = process.env.GOOGLE_GENAI_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
         { error: 'Google AI API key not configured' },
